@@ -1,0 +1,36 @@
+Letonia05:~ alumno$ mkdir practica2
+Letonia05:~ alumno$ cd practica2/
+Letonia05:practica2 alumno$ mkdir Algebra
+Letonia05:practica2 alumno$ mkdir Quimica
+Letonia05:practica2 alumno$ mkdir Fisica
+Letonia05:practica2 alumno$ mkdir Programacion
+Letonia05:practica2 alumno$ mkdir Calculo
+Letonia05:practica2 alumno$ cd Algebra/
+Letonia05:Algebra alumno$ touch archivo.txt
+Letonia05:Algebra alumno$ ls
+archivo.txt 
+Letonia05:Algebra alumno$ echo "Lara Aguilar Christian Abraham" >> archivo.txt 
+Letonia05:Algebra alumno$ echo "315047655" >> archivo.txt 
+Letonia05:Algebra alumno$ cat archivo.txt 
+Lara Aguilar Christian Abraham
+315047655         
+Letonia05:Algebra alumno$ cp archivo.txt ../Fisica/
+Letonia05:Algebra alumno$ cp archivo.txt ../Quimica/  
+Letonia05:Algebra alumno$ cp archivo.txt ../Calculo/
+Letonia05:Algebra alumno$ cp archivo.txt ../Programacion/
+Letonia05:Algebra alumno$ cd ..
+Letonia05:practica2 alumno$ cd Calculo/
+Letonia05:Calculo alumno$ ls
+archivo.txt
+Letonia05:Calculo alumno$ cd ..
+Letonia05:practica2 alumno$ cd Fisica/
+Letonia05:Fisica alumno$ ls
+archivo.txt
+Letonia05:Fisica alumno$ cd ..
+Letonia05:practica2 alumno$ cd Programacion/
+Letonia05:Programacion alumno$ ls
+archivo.txt
+Letonia05:Programacion alumno$ cd ..
+Letonia05:practica2 alumno$ cd Quimica/
+Letonia05:Quimica alumno$ ls
+archivo.txt
