@@ -1,0 +1,43 @@
+1. Dado un precio considerar su descuento considerando si el precio es mayor a 100 el descuento será del 10%. De otro modo, descontar solo un 2%.
+2. Un algoritmo que lea 2 números y calcule su suma, resta, división y multiplicación de esos dos números.
+3. Leer 3 números que van a denotar una fecha, y verificar si es una fecha válida.
+
+
+
+#1
+1. Solicitar un número mayor a 0
+2. Si el número es igual o menor a 0, volver al paso 1
+3. Guardar el número ingresado en num1
+4. Si el número es mayor a 100, multiplicar ese número por 0.10 y guardar en porc_num100
+- 4.1 Realizar la operación: num1 - porc_num100 y guardar en res1
+5. Si el número es menor o igual a 100, multiplicar el número por 0.02 y guardar el resultado en porc_num99
+   - 5.1 Realizar la operación: num1 - porc_num99 y guardar en res2
+6. Mostrar en pantalla res1 si el número ingresado es mayor a 100
+7. Mostrar en pantalla res2 si el número ingresado es menor o igual a 100
+
+#2 
+1. Solicitar ingresar dos números
+2. Guardar en num1 y num2
+3. Realizar num1-num2 y guardar en resta1
+4. Realizar num1+num2 y guardar en suma1
+5. Realizar num1*num2 y guardar en mult1
+6. Realizar num1/num2 y guardar en div1
+7. Mostrar en pantalla resta1, suma1, mult1 y div1
+
+#3
+1. Solicitar 1 número entero del 1 al 31 para el día y guardar en day1
+2. Si el número no es entero y de 1 a 31, regresar al paso 1.
+3. Solicitar 1 número entero de 1 a 12 para el mes y guardar en month1
+4. Si el número no es entero y de 1 a 12, regresar al paso 3.
+5. Solicitar 1 número entero real para el año y guardar en year1
+6. Si el número no es entero y real, regresar al paso 5.
+7. Verificar si month1 es igual a 1, 3, 5, 7, 8, 10, o 12, si es verdadero, agregar a month31
+- 7.1 Mostrar en pantalla day1, month31 y year1
+8. Verificar si month1 es 4, 6, 9 u 11, si es verdadero agregar a month30
+- 8.2 Si day1 es mayor a 30, mostrar “La fecha introducida es incorrecta”
+- 8.3 Si day1 es menor o igual a 30, mostrar day1, month30 y year1
+9. Verificar si month1 es 2, si es verdadero agregar a month28
+- 9.1 Si day1 es mayor a 29, mostrar “La fecha introducida es incorrecta”
+- 9.2 Si day1 es menor o igual a 29, pasar a paso 11
+11. Dividir year1 entre 4, si %year1 es mayor a 0, guardar en yearnb, si %year es igual a 0, guardar en yearb
+12. Si day1 es menor o igual a 29 y %year1 == 0, mostrar day1, month28 y yearb
